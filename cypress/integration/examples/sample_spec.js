@@ -1,7 +1,7 @@
 describe('My First Test', () => {
   it('clicking "type" shows the right headings', () => {
     // cy.visit('https://example.cypress.io')
-    cy.visit('index.html')
+    cy.visit('https://arifratul41.github.io')
 
     cy.get('#distance')
         .type("100")
