@@ -9,3 +9,7 @@ jobs:
 
       - name: Cypress run
         uses: cypress-io/github-action@v2
+
+      - name: Get local directories
+        run: ls
+
